@@ -21,7 +21,7 @@ public class PasswordChecker {
 	public static boolean Password_Validation(String password) 
 	{
 
-	    if(password.length()>7 || password.length()<12)
+	    if(password.length()>6 || password.length()<13)
 	    {
 	        Pattern Lletter = Pattern.compile("[a-z]");
 	        Pattern Uletter = Pattern.compile("[A-Z]");
